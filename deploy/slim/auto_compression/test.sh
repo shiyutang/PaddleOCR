@@ -1,5 +1,5 @@
 
-python run.py --save_dir save_quant_ppocrv4_rec --config_path configs/ppocrv4/ppocrv4_rec_qat_dist.yaml
+export CUDA_VISIBLE_DEVICES=0;python run.py --save_dir save_quant_ppocrv4_rec --config_path configs/ppocrv4/ppocrv4_rec_qat_dist.yaml
 
 
 ## 检测模型推理
